@@ -1,0 +1,31 @@
+# Node.js dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+
+# TypeScript build cache
+*.tsbuildinfo
+
+# IDE settings
+.vscode/
+.idea/
+
+# Optional: Mac system files
+.AppleDouble
+.LSOverride
+
+# Optional: Windows system files
+ehthumbs.db
+Desktop.ini
