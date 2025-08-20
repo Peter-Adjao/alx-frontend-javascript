@@ -14,14 +14,14 @@ interface TeacherInterface {
 //Direct class
 class Director {
     workFromHome(): string {;
-        return "Working From Home";
+        return "Working from home";
     }
     getCoffeeBreak(): string {
-        return "Getting a coffee Break";
+        return "Getting a coffee break";
     }
 
     workDirectorTasks(): string {
-        return "Gettin g to director tasks";
+        return "Getting to director tasks";
     }
 }
 
