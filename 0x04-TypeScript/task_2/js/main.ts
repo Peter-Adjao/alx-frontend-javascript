@@ -74,11 +74,12 @@ function executeWork(employee: Director | Teacher): string {
 type Subjects = "Math" | "History";
 
 // Function that takes the subject and returns the correct string
-export function teachClass(todayClass: Subjects): string {
-    if (todayClass === "Math") {
-        return "Teaching Math"
-    }
-    return "Teaching History";
+export function teachClass(todayClass:Subjects): string {
+  if (todayClass === 'Math') {
+    return 'Teaching Math'
+  } else if (todayClass === 'History') {
+    return 'Teaching History'
+  }
 }
 
 
