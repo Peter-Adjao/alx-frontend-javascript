@@ -71,12 +71,12 @@ class StudentClass implements StudentClassInterface {
 
 
     constructor(firstName: string, lastName: string) {
-        this.firstName;
-        this.lastName;
+        this.firstName = firstName;
+        this.lastName = lastName;
     }
 
     workOnHomeWork(): string {
-        return "currently working";
+        return "Currently working";
     }
 
     displayName(): string {
