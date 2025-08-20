@@ -60,7 +60,7 @@ interface StuentConstructor {
 
 //interface for the class
 interface StudentClassInterface {
-    workOnHomeWork(): string;
+    workOnHomework(): string;
     displayName(): string;
 }
 
@@ -75,7 +75,7 @@ class StudentClass implements StudentClassInterface {
         this.lastName = lastName;
     }
 
-    workOnHomeWork(): string {
+    workOnHomework(): string {
         return "Currently working";
     }
 
@@ -87,7 +87,7 @@ class StudentClass implements StudentClassInterface {
 //Usage
 const student = new StudentClass("John", "Doe");
 console.log(student.displayName());  //John
-console.log(student.workOnHomeWork());   // Currently working
+console.log(student.workOnHomework());   // Currently working
 
 
 
