@@ -45,7 +45,7 @@ interface printTeacherFunction {
 // Implement the function using the interface
 
 function printTeacher({firstName, lastName}: { firstName: string, lastName: string}): string {
-    return `${firstName[0]}. ${lastName}`;
+    return `${firstName}. ${lastName}`;
 };
 
 console.log(printTeacher({firstName: "John", lastName: "Doe"})); //output: J.Doe
