@@ -1,6 +1,6 @@
 // reference path
-import { RowID, RowElement } from "./interface";
-import * as CRUD from "./crud";
+import { RowElement, RowID } from "./interface";
+import {insertRow, deleteRow, updateRow }from "./crud";
 
 //Step 1: Create a row object
 const row: RowElement = {
@@ -9,11 +9,12 @@ const row: RowElement = {
 };
 
 //Step 2: Insert row, return ID
-const newRowID: RowID = CRUD.insertRow(row);
+const newRowID: RowID = insertRow(row);
 
 //Step 3: Update the row with age
 const updatedRow: RowElement = { ...row, age: 23};
-CRUD.updateRow(newRowID, updatedRow);
+updateRow(newRowID, updatedRow);
 
 //Step 4:  Delete the row
-CRUD.deleteRow(newRowID);
+deleteRow(newRowID);
+
